@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>31.jpg</filename>
+	<path>C:\Users\vicl\practices\TesorflowAPI\card_detection_tf1x_object_detection\data\images\train\31.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ace</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>153</xmin>
+			<ymin>210</ymin>
+			<xmax>474</xmax>
+			<ymax>471</ymax>
+		</bndbox>
+	</object>
+</annotation>
