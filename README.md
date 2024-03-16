@@ -1,4 +1,5 @@
-# object_detection_trainging: 
-with your own data 
-Requirement: Tensorflow 2.x 
-Dataset: Your customized data 
+## object_detection_trainging: 
+
+#Requirement: Tensorflow 2.x 
+#Dataset: Your customized data 
+#Python version: 3.x  
