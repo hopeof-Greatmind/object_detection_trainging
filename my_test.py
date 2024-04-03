@@ -1,5 +1,5 @@
 # Inference for ONNX model
-
+import os
 import cv2
 cuda = True
 w = "yolov7-tiny.onnx"
