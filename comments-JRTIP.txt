@@ -1,0 +1,24 @@
+In this paper, a regression-based time pyramid network(R-TPN) real-time recognition method has been proposed for  for the handwritten trajectories of continuous numeric characters. Authors used e spatial semantic
+modulation and temporal rate modulation. Through the experiments, autohrs deminstrated the performance (accuracy) of up to 78.87% with good processing speed.
+To improve this manuscript, I have some critical issues as:
+
+1. In Intorduciton, authors mentioned some problemes of 2D imaging system. But I think each numeric character can be input to the deep neural networks which are very good models.  I mean the continuous trajectory information can make the problem more complex to solve. 
+
+2. Also, some hand gesture interface systems for online charater recognition gave good performance in this field. The followings are good works:
+ - Advances in online handwritten recognition in the last decades, Computer Science Review, Volume 46, November 2022, 100515
+ - Handwriting Recognition using Wasserstein Metric in Adversarial Learning, SN-Computer Science (Springer), vol. 4, No. 1, Paper no. 43, pp. 1-10, 2023.
+ - Deep-Learning-Based Character Recognition from Handwriting Motion Data Captured Using IMU and Force Sensors, Sensors 2022, 22(20), 7840; https://doi.org/10.3390/s22207840
+
+3. Authors mentioned "~ using the idea of regression detection,the extracted trajectory features are predicted and classified."  I think this is not new idea. All deep learning approaches are using the regression in RNNs and LSTMs.
+What did it mean by authors?
+
+4. In the proposed scheme, it used Spatial and temproal pyramid structures. Spatial scalability and temporal scalablilty are very usual in object detection and classification problem. I think the contribution is so weak and not innovative.
+
+5. In the proposed scheme, authors aggregated the hierarchical features by element-wise addition operation. There can be concatenation, mutiplpication, and addiiton.  Why authors used just addition?
+
+6. After feature aggregation, authors used just a MLP structure. In Tables 2 and 3, the performance was similar with TPN [20]. In Table 3, why did not authors compare with TPN [20]?  I think not significant performance.
+
+7. To show the effectiveness of the proposed scheme, more recent works from 2021 and 2022 should be employed to compare the performance. The compared method were a little old fashion.
+
+
+recommendation: Major revision.
