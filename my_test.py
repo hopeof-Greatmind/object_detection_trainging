@@ -1,4 +1,5 @@
 # Inference for ONNX model
+#Yolo v7 tiny model
 import os
 import cv2
 cuda = True
