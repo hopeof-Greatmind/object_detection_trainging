@@ -6,7 +6,7 @@ python xml_to_csv.py -i [PATH_TO_IMAGES_FOLDER]/train -o [PATH_TO_ANNOTATIONS_FO
 # Create test data:
 python xml_to_csv.py -i [PATH_TO_IMAGES_FOLDER]/test -o [PATH_TO_ANNOTATIONS_FOLDER]/test_labels.csv
 """
-#modifed by Prof. Kim 2024. 03. 22
+# modifed by Prof. Kim 2024. 03. 22
 
 import os
 import glob
@@ -114,6 +114,6 @@ def main():
         with open(label_map_path, "w") as f:
             f.write(pbtxt_content)
 
-
+# For execution of the main part!!! (25.04.02)
 if __name__ == "__main__":
     main()
